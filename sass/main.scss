@@ -1,0 +1,185 @@
+@import 'reset.scss';
+
+@import 'fonts.scss';
+
+@import 'settings.scss';
+
+
+//wr-preview block
+
+.wr-preview {
+  //background-image: url("../img/bg-1.png");
+  background-color: #f7f8fa;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+
+  header {
+    height: 78px;
+  }
+
+
+  header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.07);
+    padding: 0 0 0 115px;
+  }
+  .header_buttonBlock_1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header_buttonBlock_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header_button_1 {
+    font-size: 14px;
+    font-family: "Axiforma";
+    background-color: #fff;
+    color: rgb(239, 121, 110);
+    line-height: 1.235;
+    border: 2px solid rgb(239, 121, 110);
+    box-shadow: 0px 6px 13px 0px rgba(249, 130, 119, 0.55);
+    padding: 15px 13px 12px 10px;
+    border-radius: 35px;
+    margin-top: 13px;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: inherit;
+    margin-right: 29px;
+    height: 47px;
+
+
+  }
+
+  .header_plus {
+    font-family: 'Axiforma Reg';
+    margin-right: 12px;
+    font-size: 17px;
+  }
+
+
+  .header_button_2 {
+    background-color: rgb(252, 156, 147);
+    width: 163px;
+    height: 78px;
+    font-size: 18px;
+    font-family: "Axiforma";
+    color: rgb(255, 255, 255);
+    line-height: 0.96;
+
+
+  }
+
+  .search_icon {
+    width: 23px;
+    margin-right: 6px;
+  }
+
+  .header_button_3 {
+    background-color: #fff;
+    border: 2px solid #8ea09d;
+    border-radius: 35px;
+    height: 47px;
+    font-size: 14px;
+    font-family: "Axiforma";
+    color: rgb(142, 160, 157);
+    line-height: 1.235;
+    box-shadow: 0px 6px 13px 0px rgba(142, 160, 157, 0.55);
+    padding: 10px 10px;
+    width: 179px;
+    margin-right: 74px;
+
+  }
+
+  .header_button_4 {
+    width: 78px;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: "Axiforma";
+    color: rgb(142, 160, 157);
+    line-height: 0.96;
+    width: 185px;
+    margin-right: 82px;
+
+  }
+  .header_bell {
+    height: 37px;
+    margin-right: 8px;
+  }
+
+  .header_comment {
+    height: 32px;
+    margin-right: 39px;
+  }
+
+  .header_avatar {
+    margin-right: 12px;
+  }
+
+
+  .header_username {
+    font-size: 14.473px;
+    font-family: "Axiforma";
+    color: rgb(252, 156, 147);
+    font-weight: bold;
+    line-height: 1;
+    max-width: 133px;
+    //-moz-transform: matrix( 1.24372433067785,0,0,1.24372433067785,0,0);
+    //-webkit-transform: matrix( 1.24372433067785,0,0,1.24372433067785,0,0);
+    //-ms-transform: matrix( 1.24372433067785,0,0,1.24372433067785,0,0);
+
+
+  }
+
+
+
+}
+
+//wr-main block
+
+.wr-main {
+  background-color: #f7f8fa;
+  margin-top: 34px;
+
+  .container {
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 1069px;
+    padding-top: 37px;
+  }
+
+  .wr-main_block1 {
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 32px 21px 0px rgba(0, 0, 0, 0.08);
+    padding-top: 52px;
+
+  }
+
+  .wr-main_offer {
+    background-color: #fff;
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+
+
+}
+
+
+
+
